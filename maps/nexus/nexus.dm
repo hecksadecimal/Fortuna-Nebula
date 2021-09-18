@@ -6,6 +6,10 @@
 	#include "../../mods/content/matchmaking/_matchmaking.dme"
 	#include "../../mods/content/scaling_descriptors.dm"
 
+	//Utility
+
+	#include "../../mods/utility/tgsv4_integration/___tgs.dme"
+
 	//Species
 
 	#include "../../mods/species/utility_frames/_utility_frames.dme"
