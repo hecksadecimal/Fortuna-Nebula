@@ -16,7 +16,15 @@
 	#include "../../mods/mobs/dionaea/_dionaea.dme"
 	#include "../../mods/mobs/borers/_borers.dme"
 
-	#include "jobs/civilian.dm"
+	#include "jobs/_access_defs.dm"
+	#include "jobs/bos.dm"
+	#include "jobs/den.dm"
+	#include "jobs/followers.dm"
+	#include "jobs/khans.dm"
+	#include "jobs/legion.dm"
+	#include "jobs/ncr.dm"
+	#include "jobs/oasis.dm"
+	#include "jobs/wasteland.dm"
 
 	#include "outfits/_pda.dm"
 	#include "outfits/civilian.dm"
