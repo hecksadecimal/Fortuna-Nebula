@@ -1,4 +1,4 @@
-//Pahrump access defines
+//Yuma access defines
 
 #define ACCESS_REGION_NCR 1
 #define ACCESS_REGION_LEGION 2

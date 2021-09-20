@@ -5,7 +5,7 @@
 	display_priority = -1
 	display_color = "#cfc31093"
 
-/datum/job/ncr/
+/datum/job/ncr
 	title = "NCR"
 	total_positions = 0
 	spawn_positions = 0
