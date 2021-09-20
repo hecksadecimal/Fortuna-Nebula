@@ -3,5 +3,6 @@
 // BEGIN_INCLUDE
 #include "_defines.dm"
 #include "_f13.dm"
+#include "_access_defs.dm"
 // END_INCLUDE
 #endif
