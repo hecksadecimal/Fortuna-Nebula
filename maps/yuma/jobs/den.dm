@@ -11,7 +11,7 @@
 	minimal_access = list(
 		access_den_general
 	)
-	outfit_type = /decl/hierarchy/outfit/job/denboss
+	outfit_type = /decl/hierarchy/outfit/job/den
 	department_types = list(/decl/department/wasteland)
 
 /datum/job/den/boss
@@ -20,7 +20,7 @@
 	total_positions = 1
 	spawn_positions = 1
 	supervisors = "You are your own boss."
-	outfit_type = /decl/hierarchy/outfit/job/denboss
+	outfit_type = /decl/hierarchy/outfit/job/den/boss
 
 /datum/job/den/doctor
 	title = "Den Mob Doctor"
@@ -28,7 +28,7 @@
 	total_positions = 2
 	spawn_positions = 2
 	supervisors = "Den Mob Boss"
-	outfit_type = /decl/hierarchy/outfit/job/dendoctor
+	outfit_type = /decl/hierarchy/outfit/job/den/doctor
 
 /datum/job/den/enforcer
 	title = "Den Mob Enforcer"
@@ -36,4 +36,4 @@
 	total_positions = 2
 	spawn_positions = 2
 	supervisors = "Den Mob Boss"
-	outfit_type = /decl/hierarchy/outfit/job/denenforver
+	outfit_type = /decl/hierarchy/outfit/job/den/enforcer

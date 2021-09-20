@@ -1,9 +1,4 @@
 //Contains the Brotherhood
-/decl/department/brotherhood
-	name = "Brotherhood"
-	display_priority = -1
-	display_color = "#6d2504"
-
 /datum/job/brotherhood
 	title = "Brotherhood"
 	total_positions = 0
@@ -36,7 +31,7 @@
 		access_brotherhood_armory,
 		access_brotherhood_command
 	)
-	outfit_type = /decl/hierarchy/outfit/job/elder
+	outfit_type = /decl/hierarchy/outfit/job/brotherhood/elder
 
 /datum/job/brotherhood/headpaladin
 	title = "Head Paladin"
@@ -54,7 +49,7 @@
 		access_brotherhood_armory,
 		access_brotherhood_command
 	)
-	outfit_type = /decl/hierarchy/outfit/job/headpaladin
+	outfit_type = /decl/hierarchy/outfit/job/brotherhood/headpaladin
 
 /datum/job/brotherhood/headscribe
 	title = "Head Scribe"
@@ -72,7 +67,7 @@
 		access_brotherhood_armory,
 		access_brotherhood_command
 	)
-	outfit_type = /decl/hierarchy/outfit/job/headscribe
+	outfit_type = /decl/hierarchy/outfit/job/brotherhood/headscribe
 
 /datum/job/brotherhood/headknight
 	title = "Head Knight"
@@ -90,7 +85,7 @@
 		access_brotherhood_armory,
 		access_brotherhood_command
 	)
-	outfit_type = /decl/hierarchy/outfit/job/headknight
+	outfit_type = /decl/hierarchy/outfit/job/brotherhood/headknight
 
 /datum/job/brotherhood/seniorpaladin
 	title = "Senior Paladin"
@@ -98,7 +93,7 @@
 	total_positions = 1
 	spawn_positions = 1
 	supervisors = "The Head Paladin"
-	outfit_type = /decl/hierarchy/outfit/job/seniorpaladin
+	outfit_type = /decl/hierarchy/outfit/job/brotherhood/seniorpaladin
 
 /datum/job/brotherhood/seniorscribe
 	title = "Senior Scribe"
@@ -106,7 +101,7 @@
 	total_positions = 1
 	spawn_positions = 1
 	supervisors = "The Head Scribe"
-	outfit_type = /decl/hierarchy/outfit/job/seniorscribe
+	outfit_type = /decl/hierarchy/outfit/job/brotherhood/seniorscribe
 
 /datum/job/brotherhood/seniorknight
 	title = "Senior Knight"
@@ -114,7 +109,7 @@
 	total_positions = 1
 	spawn_positions = 1
 	supervisors = "The Head Knight"
-	outfit_type = /decl/hierarchy/outfit/job/seniorknight
+	outfit_type = /decl/hierarchy/outfit/job/brotherhood/seniorknight
 
 /datum/job/brotherhood/paladin
 	title = "Paladin"
@@ -122,7 +117,7 @@
 	total_positions = 2
 	spawn_positions = 2
 	supervisors = "The Head and Senior Paladin"
-	outfit_type = /decl/hierarchy/outfit/job/paladin
+	outfit_type = /decl/hierarchy/outfit/job/brotherhood/paladin
 
 /datum/job/brotherhood/scribe
 	title = "Scribe"
@@ -130,7 +125,7 @@
 	total_positions = 2
 	spawn_positions = 2
 	supervisors = "The Head and Senior Scribe"
-	outfit_type = /decl/hierarchy/outfit/job/scribe
+	outfit_type = /decl/hierarchy/outfit/job/brotherhood/scribe
 
 /datum/job/brotherhood/knight
 	title = "Knight"
@@ -138,19 +133,18 @@
 	total_positions = 2
 	spawn_positions = 2
 	supervisors = "The Head and Senior Knight"
-	outfit_type = /decl/hierarchy/outfit/job/knight
+	outfit_type = /decl/hierarchy/outfit/job/brotherhood/knight
 
 /datum/job/brotherhood/initiate
 	title = "Initiate"
 	description = "Either recently inducted or born into the Brotherhood, you have since proven yourself worthy of assignment to the Chapter. You are to assist your superiors and receive training how they deem fit. You are NEVER allowed to leave the bunker without the direct supervision of a superior; doing so may result in exile or transferrence back the Valley."
 	total_positions = 2
 	spawn_positions = 2
-	supervisors = "Everyone"
+	supervisors = "Everyone in the Brotherhood"
 	access = list(
 		access_brotherhood_general
 	)
 	minimal_access = list(
 		access_brotherhood_general
 	)
-	outfit_type = /decl/hierarchy/outfit/job/initiate
-
+	outfit_type = /decl/hierarchy/outfit/job/brotherhood/initiate

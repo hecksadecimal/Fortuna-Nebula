@@ -1,10 +1,5 @@
 //Contains the NCR
 
-/decl/department/ncr
-	name = "The NCR"
-	display_priority = -1
-	display_color = "#cfc31093"
-
 /datum/job/ncr
 	title = "NCR"
 	total_positions = 0

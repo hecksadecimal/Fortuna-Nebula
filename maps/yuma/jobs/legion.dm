@@ -1,10 +1,5 @@
 //Contains the Legion
 
-/decl/department/legion
-	name = "The Legion"
-	display_priority = -1
-	display_color = "#af3d08"
-
 /datum/job/legion/
 	title = "Legion"
 	total_positions = 0
@@ -18,11 +13,11 @@
 		access_legion_general,
 		access_legion_armory
 	)
-	outfit_type = /decl/hierarchy/outfit/job/legate
+	outfit_type = /decl/hierarchy/outfit/job/legion
 	department_types = list(/decl/department/legion)
 
 /datum/job/legion/legate
-	title = "Legate"
+	title = "Legion Legate"
 	total_positions = 0
 	spawn_positions = 0
 	supervisors = "Caesar"
@@ -36,7 +31,7 @@
 		access_legion_armory,
 		access_legion_command
 	)
-	outfit_type = /decl/hierarchy/outfit/job/legate
+	outfit_type = /decl/hierarchy/outfit/job/legion/legate
 
 /datum/job/legion/centurion
 	title = "Legion Centurion"
@@ -54,7 +49,7 @@
 		access_legion_armory,
 		access_legion_command
 	)
-	outfit_type = /decl/hierarchy/outfit/job/centurion
+	outfit_type = /decl/hierarchy/outfit/job/legion/centurion
 
 /datum/job/legion/veterandecanus
 	title = "Legion Veteran Decanus"
@@ -72,7 +67,7 @@
 		access_legion_armory,
 		access_legion_command
 	)
-	outfit_type = /decl/hierarchy/outfit/job/veterandecanus
+	outfit_type = /decl/hierarchy/outfit/job/legion/veterandecanus
 
 /datum/job/legion/primedecanus
 	title = "Legion Prime Decanus"
@@ -90,7 +85,7 @@
 		access_legion_armory,
 		access_legion_command
 	)
-	outfit_type = /decl/hierarchy/outfit/job/primedecanus
+	outfit_type = /decl/hierarchy/outfit/job/legion/primedecanus
 
 /datum/job/legion/recruitdecanus
 	title = "Legion Recruit Decanus"
@@ -108,7 +103,7 @@
 		access_legion_armory,
 		access_legion_command
 	)
-	outfit_type = /decl/hierarchy/outfit/job/recruitdecanus
+	outfit_type = /decl/hierarchy/outfit/job/legion/recruitdecanus
 
 /datum/job/legion/vexillarius
 	title = "Legion Vexillarius"
@@ -126,7 +121,7 @@
 		access_legion_armory,
 		access_legion_command
 	)
-	outfit_type = /decl/hierarchy/outfit/job/vexillarius
+	outfit_type = /decl/hierarchy/outfit/job/legion/vexillarius
 
 /datum/job/legion/explorer
 	title = "Legion Explorer"
@@ -134,31 +129,31 @@
 	total_positions = 2
 	spawn_positions = 2
 	supervisors = "The Veteran Decanus and the Centurion"
-	outfit_type = /decl/hierarchy/outfit/job/explorer
+	outfit_type = /decl/hierarchy/outfit/job/legion/explorer
 
 /datum/job/legion/vetlegionnaire
-	title = "Veteran Legionnaire"
+	title = "Legion Veteran Legionnaire"
 	description = "A hardened warrior, obeying the orders from the Decanus and Centurion is second nature, as is fighting the profligates. If no officers are present, make sure the younger warriors act like proper Legionaires."
 	total_positions = 3
 	spawn_positions = 3
 	supervisors = "The Decani and the Centurion"
-	outfit_type = /decl/hierarchy/outfit/job/vetlegionnaire
+	outfit_type = /decl/hierarchy/outfit/job/legion/veteranlegionnaire
 
 /datum/job/legion/primelegionnaire
-	title = "Prime Legionnaire"
+	title = "Legion Prime Legionnaire"
 	description = "A front line soldier who has shown ability to obey and fought in some battles. The Legions muscle, the young men who will build the future with their own blood and sacrifice, for Caesar."
 	total_positions = 4
 	spawn_positions = 4
 	supervisors = "The Decani and the Centurion"
-	outfit_type = /decl/hierarchy/outfit/job/primelegionnaire
+	outfit_type = /decl/hierarchy/outfit/job/legion/primelegionnaire
 
 /datum/job/legion/recruitlegionnaire
-	title = "Recruit Legionnaire"
+	title = "Legion Recruit Legionnaire"
 	description = "You have recently come of age or been inducted into Caesar's Legion. You have absolutely no training, and are expected to follow every whim of the Decanii and your Centurion. Respect the soldiers of higher rank."
 	total_positions = 5
 	spawn_positions = 5
 	supervisors = "The Decani and the Centurion"
-	outfit_type = /decl/hierarchy/outfit/job/recruitlegionnaire
+	outfit_type = /decl/hierarchy/outfit/job/legion/recruitlegionnaire
 
 /datum/job/legion/slavemaster
 	title = "Legion Slavemaster"
@@ -166,15 +161,15 @@
 	total_positions = 1
 	spawn_positions = 1
 	supervisors = "The Centurion"
-	outfit_type = /decl/hierarchy/outfit/job/slavemaster
+	outfit_type = /decl/hierarchy/outfit/job/legion/slavemaster
 
-/datum/job/legion/slavemaster
+/datum/job/legion/forgemaster
 	title = "Legion Forgemaster"
 	description = "The Forgemaster makes weapons of all sorts and upgrades them, keeping order in the Forge and makes sure the camp is defended."
 	total_positions = 1
 	spawn_positions = 1
 	supervisors = "The Centurion"
-	outfit_type = /decl/hierarchy/outfit/job/forgemaster
+	outfit_type = /decl/hierarchy/outfit/job/legion/forgemaster
 
 /datum/job/legion/auxilia
 	title = "Legion Auxilia"
@@ -182,7 +177,7 @@
 	total_positions = 2
 	spawn_positions = 2
 	supervisors = "The Centurion"
-	outfit_type = /decl/hierarchy/outfit/job/auxilia
+	outfit_type = /decl/hierarchy/outfit/job/legion/auxilia
 
 /datum/job/legion/slave
 	title = "Legion Slave"
@@ -190,4 +185,4 @@
 	total_positions = 3
 	spawn_positions = 3
 	supervisors = "Everyone in the Legion"
-	outfit_type = /decl/hierarchy/outfit/job/slave
+	outfit_type = /decl/hierarchy/outfit/job/legion/slave

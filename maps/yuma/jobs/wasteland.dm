@@ -18,5 +18,5 @@
 	total_positions = 10
 	spawn_positions = 10
 	supervisors = "You are your own boss in these parts."
-	outfit_type = /decl/hierarchy/outfit/job/outlaw
+	outfit_type = /decl/hierarchy/outfit/job/wastelander/outlaw
 	department_types = list(/decl/department/wasteland)

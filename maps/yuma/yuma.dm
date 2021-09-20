@@ -19,7 +19,6 @@
 	#include "../../mods/mobs/dionaea/_dionaea.dme"
 	#include "../../mods/mobs/borers/_borers.dme"
 
-	#include "jobs/_access_defs.dm"
 	#include "jobs/bos.dm"
 	#include "jobs/den.dm"
 	#include "jobs/followers.dm"
@@ -30,7 +29,14 @@
 	#include "jobs/wasteland.dm"
 
 	#include "outfits/_pda.dm"
-	#include "outfits/civilian.dm"
+	#include "outfits/bos.dm"
+	#include "outfits/den.dm"
+	#include "outfits/followers.dm"
+	#include "outfits/khans.dm"
+	#include "outfits/legion.dm"
+	#include "outfits/ncr.dm"
+	#include "outfits/oasis.dm"
+	#include "outfits/wasteland.dm"
 
 	#include "yuma_announcements.dm"
 	#include "yuma_areas.dm"

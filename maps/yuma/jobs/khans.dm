@@ -13,5 +13,5 @@
 	minimal_access = list(
 		access_khans_general
 	)
-	outfit_type = /decl/hierarchy/outfit/job/wastelander
+	outfit_type = /decl/hierarchy/outfit/job/khan
 	department_types = list(/decl/department/wasteland)

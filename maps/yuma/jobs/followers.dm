@@ -1,8 +1,4 @@
 //Contains Followers
-/decl/department/followers
-	name = "Followers"
-	display_priority = -1
-	display_color = "#6d2504"
 
 /datum/job/followers
 	title = "Followers"
@@ -32,7 +28,7 @@
 		access_followers_general,
 		access_followers_command
 	)
-	outfit_type = /decl/hierarchy/outfit/job/followersadmin
+	outfit_type = /decl/hierarchy/outfit/job/followers/administrator
 
 /datum/job/followers/doctor
 	title = "Followers Doctor"
@@ -40,7 +36,7 @@
 	total_positions = 3
 	spawn_positions = 3
 	supervisors = "The Administrator"
-	outfit_type = /decl/hierarchy/outfit/job/followersdoctor
+	outfit_type = /decl/hierarchy/outfit/job/followers/doctor
 
 /datum/job/followers/guard
 	title = "Followers Guard"
@@ -48,7 +44,7 @@
 	total_positions = 2
 	spawn_positions = 2
 	supervisors = "The Administrator and Doctors"
-	outfit_type = /decl/hierarchy/outfit/job/followersguard
+	outfit_type = /decl/hierarchy/outfit/job/followers/guard
 
 /datum/job/followers/volunteer
 	title = "Followers Volunteer"
@@ -56,4 +52,4 @@
 	total_positions = 2
 	spawn_positions = 2
 	supervisors = "The Administrator and Doctors"
-	outfit_type = /decl/hierarchy/outfit/job/followersvolunteer
+	outfit_type = /decl/hierarchy/outfit/job/followers/volunteer
