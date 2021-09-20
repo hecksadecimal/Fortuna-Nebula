@@ -1,0 +1,7 @@
+#ifndef MODPACK_F13
+#define MODPACK_F13
+// BEGIN_INCLUDE
+#include "_defines.dm"
+#include "_f13.dm"
+// END_INCLUDE
+#endif
