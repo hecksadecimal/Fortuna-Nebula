@@ -16,6 +16,8 @@
 	#include "../../mods/content/psionics/_psionics.dme"
 	#include "../../mods/content/xenobiology/_xenobiology.dme"
 
+	#include "../../mods/utility/tgsv4_integration/___tgs.dme"
+
 	#include "../../mods/mobs/dionaea/_dionaea.dme"
 	#include "../../mods/mobs/borers/_borers.dme"
 
