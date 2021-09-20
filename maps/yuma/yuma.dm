@@ -11,6 +11,9 @@
 	#include "../../mods/content/scaling_descriptors.dm"
 	#include "../../mods/content/xenobiology/_xenobiology.dme"
 
+	// All our F13 content in a modpack
+	#include "../../mods/content/f13/_f13.dme"
+
 	#include "../../mods/utility/tgsv4_integration/___tgs.dme"
 
 	#include "../../mods/mobs/dionaea/_dionaea.dme"
