@@ -18,7 +18,7 @@
 		access_ncr_general,
 		access_ncr_armory
 	)
-	outfit_type = /decl/hierarchy/outfit/job/colonel
+	outfit_type = /decl/hierarchy/outfit/job/ncr/colonel
 	department_types = list(/decl/department/ncr)
 
 /datum/job/ncr/colonel
@@ -38,7 +38,7 @@
 		access_ncr_command,
 		access_ncr_vip
 	)
-	outfit_type = /decl/hierarchy/outfit/job/colonel
+	outfit_type = /decl/hierarchy/outfit/job/ncr/colonel
 
 /datum/job/ncr/personalaide
 	title = "NCR Personal Aide"
@@ -57,7 +57,7 @@
 		access_ncr_command,
 		access_ncr_vip
 	)
-	outfit_type = /decl/hierarchy/outfit/job/personalaide
+	outfit_type = /decl/hierarchy/outfit/job/ncr/personalaide
 
 /datum/job/ncr/captain
 	title = "NCR Captain"
@@ -77,7 +77,7 @@
 		access_ncr_command,
 		access_ncr_vip
 	)
-	outfit_type = /decl/hierarchy/outfit/job/captain
+	outfit_type = /decl/hierarchy/outfit/job/ncr/captain
 
 /datum/job/ncr/lieutenant
 	title = "NCR Lieutenant"
@@ -97,7 +97,7 @@
 		access_ncr_command,
 		access_ncr_vip
 	)
-	outfit_type = /decl/hierarchy/outfit/job/lieutenant
+	outfit_type = /decl/hierarchy/outfit/job/ncr/lieutenant
 
 /datum/job/ncr/medicalofficer
 	title = "NCR Medical Officer"
@@ -115,7 +115,7 @@
 		access_ncr_armory,
 		access_ncr_command
 	)
-	outfit_type = /decl/hierarchy/outfit/job/medicalofficer
+	outfit_type = /decl/hierarchy/outfit/job/ncr/medicalofficer
 
 /datum/job/ncr/logisticsofficer
 	title = "NCR Logistics Officer"
@@ -133,7 +133,7 @@
 		access_ncr_armory,
 		access_ncr_command
 	)
-	outfit_type = /decl/hierarchy/outfit/job/logisticsofficer
+	outfit_type = /decl/hierarchy/outfit/job/ncr/logisticsofficer
 
 /datum/job/ncr/representative
 	title = "NCR Representative"
@@ -153,7 +153,7 @@
 		access_ncr_vip,
 		access_ncr_command
 	)
-	outfit_type = /decl/hierarchy/outfit/job/heavytrooper
+	outfit_type = /decl/hierarchy/outfit/job/ncr/heavytrooper
 
 /datum/job/ncr/militarypolice
 	title = "NCR Military Police"
@@ -161,7 +161,7 @@
 	total_positions = 2
 	spawn_positions = 2
 	supervisors = "Lieutenants and above"
-	outfit_type = /decl/hierarchy/outfit/job/militarypolice
+	outfit_type = /decl/hierarchy/outfit/job/ncr/militarypolice
 
 /datum/job/ncr/sergeant
 	title = "NCR Sergeant"
@@ -169,7 +169,7 @@
 	total_positions = 2
 	spawn_positions = 2
 	supervisors = "Lieutenant and Above"
-	outfit_type = /decl/hierarchy/outfit/job/sergeant
+	outfit_type = /decl/hierarchy/outfit/job/ncr/sergeant
 
 /datum/job/ncr/heavytrooper
 	title = "NCR Heavy Trooper"
@@ -177,7 +177,7 @@
 	total_positions = 1
 	spawn_positions = 1
 	supervisors = "Lieutenant and Above"
-	outfit_type = /decl/hierarchy/outfit/job/heavytrooper
+	outfit_type = /decl/hierarchy/outfit/job/ncr/heavytrooper
 
 /datum/job/ncr/veteranranger
 	title = "NCR Veteran Ranger"
@@ -195,7 +195,7 @@
 		access_ncr_armory,
 		access_ncr_command
 	)
-	outfit_type = /decl/hierarchy/outfit/job/veteranranger
+	outfit_type = /decl/hierarchy/outfit/job/ncr/veteranranger
 
 /datum/job/ncr/ranger
 	title = "NCR Ranger"
@@ -203,14 +203,14 @@
 	total_positions = 2
 	spawn_positions = 2
 	supervisors = "Veteran Ranger"
-	outfit_type = /decl/hierarchy/outfit/job/ranger
+	outfit_type = /decl/hierarchy/outfit/job/ncr/ranger
 
 /datum/job/ncr/corporal
 	title = "NCR Corporal"
 	total_positions = 2
 	spawn_positions = 2
 	supervisors = "Sergeants and Above"
-	outfit_type = /decl/hierarchy/outfit/job/corporal
+	outfit_type = /decl/hierarchy/outfit/job/ncr/corporal
 
 /datum/job/ncr/combatengineer
 	title = "NCR Combat Engineer"
@@ -218,7 +218,7 @@
 	total_positions = 1
 	spawn_positions = 1
 	supervisors = "Corporals and Above"
-	outfit_type = /decl/hierarchy/outfit/job/combatengineer
+	outfit_type = /decl/hierarchy/outfit/job/ncr/combatengineer
 
 /datum/job/ncr/combatmedic
 	title = "NCR Combat Medic"
@@ -226,7 +226,7 @@
 	total_positions = 2
 	spawn_positions = 2
 	supervisors = "Corporals and Above"
-	outfit_type = /decl/hierarchy/outfit/job/combatmedic
+	outfit_type = /decl/hierarchy/outfit/job/ncr/combatmedic
 
 /datum/job/ncr/trooper
 	title = "NCR Trooper"
@@ -234,7 +234,7 @@
 	total_positions = 8
 	spawn_positions = 8
 	supervisors = "Corporals and Above"
-	outfit_type = /decl/hierarchy/outfit/job/trooper
+	outfit_type = /decl/hierarchy/outfit/job/ncr/trooper
 
 /datum/job/ncr/rearechelon
 	title = "NCR Rear Echelon"
@@ -242,4 +242,4 @@
 	total_positions = 4
 	spawn_positions = 4
 	supervisors = "Logistics/Medical officer first, regular chain of command after that"
-	outfit_type = /decl/hierarchy/outfit/job/rearechelon
+	outfit_type = /decl/hierarchy/outfit/job/ncr/rearechelon
