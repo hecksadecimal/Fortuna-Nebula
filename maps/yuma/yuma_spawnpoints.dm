@@ -26,7 +26,7 @@ var/global/list/latejoin_north = list()
 		/decl/spawnpoint/arrivals/wastes/south,
 		/decl/spawnpoint/arrivals/wastes/north
 	)
-	default_spawn = /decl/spawnpoint/arrivals/wastes
+	default_spawn = /decl/spawnpoint/arrivals/wastes/south
 
 /decl/spawnpoint/arrivals/wastes/west
 	name = "West"
