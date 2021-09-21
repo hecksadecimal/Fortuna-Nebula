@@ -4,6 +4,6 @@
 #include "_access_defs.dm"
 #include "_defines.dm"
 #include "_f13.dm"
-#include "objects\items\id_cards.dm"
+#include "code/game/objects/items/id_cards.dm"
 // END_INCLUDE
 #endif
