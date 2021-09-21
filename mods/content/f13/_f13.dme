@@ -4,5 +4,7 @@
 #include "_defines.dm"
 #include "_f13.dm"
 #include "_access_defs.dm"
+#include "code/game/turfs/exterior/floor/floor.dm"
+#include "code/game/turfs/exterior/wall/wall.dm"
 // END_INCLUDE
 #endif

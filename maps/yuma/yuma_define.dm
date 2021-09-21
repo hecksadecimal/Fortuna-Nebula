@@ -37,6 +37,8 @@
 	)
 
 	evac_controller_type = /datum/evacuation_controller/shuttle
+	exterior_atmos_composition = list(/decl/material/gas/oxygen = MOLES_O2STANDARD, /decl/material/gas/nitrogen = MOLES_N2STANDARD)
+	exterior_atmos_temp = 313 // Approx 40C
 
 /datum/map/yuma/get_map_info()
 	return "Welcome to Yuma. Enjoy your stay!"
