@@ -10,5 +10,13 @@
 #include "code/game/turfs/exterior/floor/floor.dm"
 #include "code/game/turfs/exterior/wall/wall.dm"
 #include "code/modules/daycycle/_daycycle.dm"
+#include "code/modules/clothing/under/jobs/ncr_under.dm"
+#include "code/modules/clothing/under/jobs/legion_under.dm"
+#include "code/modules/clothing/under/jobs/bos_under.dm"
+#include "code/modules/clothing/under/jobs/followers_under.dm"
+#include "code/modules/clothing/under/jobs/khans_under.dm"
+#include "code/modules/clothing/under/jobs/den_under.dm"
+#include "code/modules/clothing/under/jobs/oasis_under.dm"
+#include "code/modules/clothing/under/jobs/wasteland_under.dm"
 // END_INCLUDE
 #endif
