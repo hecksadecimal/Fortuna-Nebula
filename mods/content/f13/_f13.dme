@@ -1,8 +1,9 @@
 #ifndef MODPACK_F13
 #define MODPACK_F13
 // BEGIN_INCLUDE
+#include "_access_defs.dm"
 #include "_defines.dm"
 #include "_f13.dm"
-#include "_access_defs.dm"
+#include "objects\items\id_cards.dm"
 // END_INCLUDE
 #endif
