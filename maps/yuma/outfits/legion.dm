@@ -4,6 +4,7 @@
 	name = "Role - Legion"
 	id_type = /obj/item/card/id/legion
 	l_ear = /obj/item/radio/headset
+	uniform = /obj/item/clothing/under/legion_uniform
 
 /decl/hierarchy/outfit/job/legion/legate
 	name = "Role - Legate"
@@ -49,6 +50,30 @@
 /decl/hierarchy/outfit/job/legion/slave
 	name = "Role - Slave"
 	id_type = /obj/item/card/id/legion/slave
+	uniform = null
+
+/decl/hierarchy/outfit/job/legion/slave/pre_equip(mob/living/carbon/human/H)
+	. = ..()
+	switch(H.gender)
+		if(MALE)
+			uniform = /obj/item/clothing/under/legion_slave_male
+		if(FEMALE)
+			uniform = /obj/item/clothing/under/legion_slave_female
+
+	if(!uniform)
+		uniform = /obj/item/clothing/under/legion_slave_male
 
 /decl/hierarchy/outfit/job/legion/auxilia
 	name = "Role - Auxilia"
+	uniform = null
+
+/decl/hierarchy/outfit/job/legion/auxilia/pre_equip(mob/living/carbon/human/H)
+	. = ..()
+	switch(H.gender)
+		if(MALE)
+			uniform = /obj/item/clothing/under/legion_auxilia_male
+		if(FEMALE)
+			uniform = /obj/item/clothing/under/legion_auxilia_female
+
+	if(!uniform)
+		uniform = /obj/item/clothing/under/legion_auxilia_male

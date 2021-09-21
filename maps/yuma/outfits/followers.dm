@@ -4,6 +4,7 @@
 	name = "Role - Followers"
 	id_type = /obj/item/card/id/followers
 	l_ear = /obj/item/radio/headset
+	uniform = /obj/item/clothing/under/followers_uniform
 
 /decl/hierarchy/outfit/job/followers/administrator
 	name = "Role - Followers Administrator"
