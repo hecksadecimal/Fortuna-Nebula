@@ -46,6 +46,7 @@
 	#include "yuma_spawnpoints.dm"
 	#include "yuma_unit_testing.dm"
 
+	#include "yuma-0.dmm"
 	#include "yuma-1.dmm"
 	#include "yuma-admin.dmm"
 	#include "yuma-transit.dmm"

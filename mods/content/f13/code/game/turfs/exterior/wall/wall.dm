@@ -3,6 +3,11 @@
 
 /turf/exterior/wall/f13/denserock
 	name = "dense rock"
+	material = /decl/material/solid/stone/sandstone
+
+/turf/exterior/wall/f13/denserock/update_strings()
+	SetName("dense natural [material.solid_name] wall")
+	desc = "A natural cliff face composed of bare [material.solid_name]. It seems incredibly dense."
 
 /turf/exterior/wall/f13/denserock/dismantle_wall()
 	return

@@ -12,10 +12,13 @@
 	company_short = "N/A"
 	system_name   = "Milky Way"
 
-	station_levels = list(1)
-	contact_levels = list(1)
-	player_levels =  list(1)
-	admin_levels = 	 list(2,3)
+	station_levels = list(1,2)
+	contact_levels = list(1,2)
+	player_levels =  list(1,2)
+	sealed_levels =  list(1,2)
+	admin_levels =   list(3,4)
+
+	base_floor_type = /turf/simulated/open
 
 	overmap_event_areas = 0
 	use_overmap = FALSE
@@ -42,3 +45,10 @@
 
 /datum/map/yuma/get_map_info()
 	return "Welcome to Yuma. Enjoy your stay!"
+
+// Day/night cycle stuff.
+/datum/map
+	var/lightlevel				= 0.8
+	var/initial_lightlevel 		= 0.8
+	var/daycycle 				= 20 MINUTES
+	var/daycycle_column_delay	= 10 SECONDS

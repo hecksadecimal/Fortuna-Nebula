@@ -9,4 +9,4 @@
 	area_coherency_test_exempt_areas = list(/area/space)
 
 /obj/effect/landmark/map_data/yuma
-	height = 1
+	height = 2
