@@ -8,6 +8,10 @@
 	shoes = /obj/item/clothing/shoes/legionboots
 	pda_type = null
 
+/decl/hierarchy/outfit/job/legion/Initialize()
+	. = ..()
+	BACKPACK_OVERRIDE_LEGION
+
 /decl/hierarchy/outfit/job/legion/legate
 	name = "Role - Legate"
 

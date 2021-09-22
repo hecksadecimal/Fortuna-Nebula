@@ -8,6 +8,10 @@
 	pda_type = null
 	shoes = /obj/item/clothing/shoes/dress
 
+/decl/hierarchy/outfit/job/followers/Initialize()
+	. = ..()
+	BACKPACK_OVERRIDE_FOLLOWERS
+
 /decl/hierarchy/outfit/job/followers/administrator
 	name = "Role - Followers Administrator"
 

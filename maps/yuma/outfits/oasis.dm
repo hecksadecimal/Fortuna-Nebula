@@ -9,6 +9,10 @@
 	pda_type = null
 	shoes = /obj/item/clothing/shoes/color/brown
 
+/decl/hierarchy/outfit/job/oasis/Initialize()
+	. = ..()
+	BACKPACK_OVERRIDE_OASIS
+
 /decl/hierarchy/outfit/job/oasis/mayor
 	name = "Role - Mayor"
 

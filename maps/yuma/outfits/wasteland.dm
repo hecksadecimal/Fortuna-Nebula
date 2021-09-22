@@ -8,5 +8,9 @@
 	pda_type = null
 	shoes = /obj/item/clothing/shoes/color/brown
 
+/decl/hierarchy/outfit/job/wastelander/Initialize()
+	. = ..()
+	BACKPACK_OVERRIDE_WASTELANDER
+
 /decl/hierarchy/outfit/job/wastelander/outlaw
 	name = "Role - Outlaw"

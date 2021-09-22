@@ -7,6 +7,10 @@
 	pda_type = null
 	shoes = /obj/item/clothing/shoes/color/brown
 
+/decl/hierarchy/outfit/job/den/Initialize()
+	. = ..()
+	BACKPACK_OVERRIDE_DEN
+
 /decl/hierarchy/outfit/job/den/enforcer
 	name = "Role - Den Enforcer"
 

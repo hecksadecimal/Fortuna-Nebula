@@ -7,3 +7,7 @@
 	uniform = /obj/item/clothing/under/khans_uniform
 	pda_type = null
 	shoes = /obj/item/clothing/shoes/color/brown
+
+/decl/hierarchy/outfit/job/khan/Initialize()
+	. = ..()
+	BACKPACK_OVERRIDE_KHAN

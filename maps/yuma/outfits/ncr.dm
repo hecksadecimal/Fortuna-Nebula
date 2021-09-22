@@ -8,6 +8,10 @@
 	shoes = /obj/item/clothing/shoes/patrolboots
 	pda_type = null
 
+/decl/hierarchy/outfit/job/ncr/Initialize()
+	. = ..()
+	BACKPACK_OVERRIDE_NCR
+
 /decl/hierarchy/outfit/job/ncr/colonel
 	name = "Role - Colonel"
 	id_type = /obj/item/card/id/ncr/captain
