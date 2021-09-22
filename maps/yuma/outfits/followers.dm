@@ -5,6 +5,8 @@
 	id_type = /obj/item/card/id/followers
 	l_ear = /obj/item/radio/headset
 	uniform = /obj/item/clothing/under/followers_uniform
+	pda_type = null
+	shoes = /obj/item/clothing/shoes/dress
 
 /decl/hierarchy/outfit/job/followers/administrator
 	name = "Role - Followers Administrator"
