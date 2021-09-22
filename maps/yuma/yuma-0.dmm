@@ -153,6 +153,10 @@
 	icon_state = "verticalrightborderleftbottom"
 	},
 /area/yuma/desert)
+"lb" = (
+/obj/effect/daynight,
+/turf/exterior/wall/f13/denserock,
+/area/yuma/desert)
 "lm" = (
 /turf/exterior/f13/road{
 	icon_state = "cross2"
@@ -293,10 +297,6 @@
 /turf/exterior/f13/road{
 	icon_state = "horizontalinnermain2right"
 	},
-/area/yuma/desert)
-"vt" = (
-/obj/effect/daynight,
-/turf/exterior/wall/f13/denserock,
 /area/yuma/desert)
 "vJ" = (
 /turf/exterior/f13/road{
@@ -1075,7 +1075,7 @@ rm
 rm
 rm
 rm
-vt
+lb
 "}
 (2,1,1) = {"
 rm

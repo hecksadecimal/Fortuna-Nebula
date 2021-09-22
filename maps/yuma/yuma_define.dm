@@ -45,10 +45,3 @@
 
 /datum/map/yuma/get_map_info()
 	return "Welcome to Yuma. Enjoy your stay!"
-
-// Day/night cycle stuff.
-/datum/map
-	var/lightlevel				= 0.8
-	var/initial_lightlevel 		= 0.8
-	var/daycycle 				= 20 MINUTES
-	var/daycycle_column_delay	= 10 SECONDS
