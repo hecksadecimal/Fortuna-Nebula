@@ -18,6 +18,9 @@
 	name = "Test house"
 	base_turf = /turf/simulated/floor/wood/mahogany
 
+/*
 /area/shuttle/escape_shuttle
 	name = "\improper Emergency Shuttle"
 	icon_state = "shuttle"
+*/
+

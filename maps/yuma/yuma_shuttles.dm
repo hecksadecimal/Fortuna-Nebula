@@ -1,3 +1,5 @@
+/* This is commented out until we need it.
+
 /datum/shuttle/autodock/ferry/emergency/escape_shuttle
 	name = "Train"
 	warmup_time = 10
@@ -19,3 +21,4 @@
 	landmark_tag = "nav_endround_train_station"
 	docking_controller = "escape_dock"
 
+*/
