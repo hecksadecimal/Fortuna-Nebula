@@ -3,4 +3,4 @@
 	icon = 'mods/content/f13/icons/turf/desert.dmi'
 
 /turf/exterior/update_ambient_light(mapload)
-	set_light(global.using_map.initial_lightlevel)
+	set_light(1, 0.6)
