@@ -4,3 +4,4 @@
 	name = "Role - Great Khan"
 	id_type = /obj/item/card/id/khan
 	l_ear = /obj/item/radio/headset
+	uniform = /obj/item/clothing/under/khans_uniform

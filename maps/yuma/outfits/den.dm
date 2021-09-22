@@ -3,6 +3,7 @@
 /decl/hierarchy/outfit/job/den
 	name = "Role - Den"
 	id_type = /obj/item/card/id/den
+	uniform = /obj/item/clothing/under/den_uniform
 
 /decl/hierarchy/outfit/job/den/enforcer
 	name = "Role - Den Enforcer"
