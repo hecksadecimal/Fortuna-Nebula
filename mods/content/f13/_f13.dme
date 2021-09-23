@@ -5,6 +5,7 @@
 #include "_defines.dm"
 #include "_f13.dm"
 #include "code/overrides/controllers/subsystems/zcopy.dm"
+#include "code/overrides/jobs/_job.dm"
 #include "code/game/objects/items/id_cards.dm"
 #include "code/game/turfs/exterior/exterior.dm"
 #include "code/game/turfs/exterior/floor/floor.dm"
@@ -18,5 +19,9 @@
 #include "code/modules/clothing/under/jobs/den_under.dm"
 #include "code/modules/clothing/under/jobs/oasis_under.dm"
 #include "code/modules/clothing/under/jobs/wasteland_under.dm"
+#include "code/modules/mob/language/english.dm"
+#include "code/modules/culture_descriptor/cultures_human.dm"
+#include "code/modules/culture_descriptor/faction/factions_human.dm"
+#include "code/modules/culture_descriptor/religion/religions_human.dm"
 // END_INCLUDE
 #endif
