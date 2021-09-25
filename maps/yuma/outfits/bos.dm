@@ -4,6 +4,12 @@
 	name = "Role - Brotherhood"
 	id_type = /obj/item/card/id/brotherhood
 	uniform = /obj/item/clothing/under/bos_uniform
+	shoes = /obj/item/clothing/shoes/brotherhoodboots
+	pda_type = null
+
+/decl/hierarchy/outfit/job/brotherhood/Initialize()
+	. = ..()
+	BACKPACK_OVERRIDE_BROTHERHOOD
 
 /decl/hierarchy/outfit/job/brotherhood/elder
 	name = "Role - Elder"

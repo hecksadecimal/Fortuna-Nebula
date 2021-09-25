@@ -18,5 +18,7 @@
 #include "code/modules/clothing/under/jobs/den_under.dm"
 #include "code/modules/clothing/under/jobs/oasis_under.dm"
 #include "code/modules/clothing/under/jobs/wasteland_under.dm"
+#include "code/modules/clothing/shoes/jobs.dm"
+#include "code/game/objects/items/weapons/storage/backpack.dm"
 // END_INCLUDE
 #endif
