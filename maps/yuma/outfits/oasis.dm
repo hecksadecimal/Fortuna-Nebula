@@ -6,6 +6,12 @@
 	pda_type = /obj/item/modular_computer/pda
 	l_ear = /obj/item/radio/headset
 	uniform = /obj/item/clothing/under/settler_uniform
+	pda_type = null
+	shoes = /obj/item/clothing/shoes/color/brown
+
+/decl/hierarchy/outfit/job/oasis/Initialize()
+	. = ..()
+	BACKPACK_OVERRIDE_OASIS
 
 /decl/hierarchy/outfit/job/oasis/mayor
 	name = "Role - Mayor"

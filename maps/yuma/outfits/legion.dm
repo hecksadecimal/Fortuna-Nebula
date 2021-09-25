@@ -5,6 +5,12 @@
 	id_type = /obj/item/card/id/legion
 	l_ear = /obj/item/radio/headset
 	uniform = /obj/item/clothing/under/legion_uniform
+	shoes = /obj/item/clothing/shoes/legionboots
+	pda_type = null
+
+/decl/hierarchy/outfit/job/legion/Initialize()
+	. = ..()
+	BACKPACK_OVERRIDE_LEGION
 
 /decl/hierarchy/outfit/job/legion/legate
 	name = "Role - Legate"
@@ -51,6 +57,7 @@
 	name = "Role - Slave"
 	id_type = /obj/item/card/id/legion/slave
 	uniform = null
+	shoes = /obj/item/clothing/shoes/sandal
 
 /decl/hierarchy/outfit/job/legion/slave/pre_equip(mob/living/carbon/human/H)
 	. = ..()
@@ -66,6 +73,7 @@
 /decl/hierarchy/outfit/job/legion/auxilia
 	name = "Role - Auxilia"
 	uniform = null
+	shoes = /obj/item/clothing/shoes/sandal
 
 /decl/hierarchy/outfit/job/legion/auxilia/pre_equip(mob/living/carbon/human/H)
 	. = ..()
