@@ -8,6 +8,7 @@ Thumbs.db
 *.backup
 *.before
 data/
+sound/playervoices/*.wav
 dmdoc/
 cfg/
 build_log.txt
@@ -49,3 +50,8 @@ lib/*.so
 # python
 *.pyc
 __pycache__
+
+# Things we cannot redistribute
+FonixTalk.dll
+ftalk_us.dic
+ftalk_us.dll

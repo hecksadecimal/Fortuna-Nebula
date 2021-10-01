@@ -13,6 +13,7 @@
 
 	// All our F13 content in a modpack
 	#include "../../mods/content/f13/_f13.dme"
+	#include "../../mods/content/tts/_tts.dme"
 
 	#include "../../mods/utility/tgsv4_integration/___tgs.dme"
 

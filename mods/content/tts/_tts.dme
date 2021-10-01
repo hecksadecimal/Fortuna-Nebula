@@ -1,0 +1,10 @@
+#ifndef MODPACK_TTS
+#define MODPACK_TTS
+// BEGIN_INCLUDE
+#include "code/_helpers/texttospeech.dm"
+#include "code/controllers/configuration.dm"
+#include "code/modules/admin/admin.dm"
+#include "code/modules/client/preference_setup/global/preferences.dm"
+#include "code/modules/mob/living/say.dm"
+// END_INCLUDE
+#endif

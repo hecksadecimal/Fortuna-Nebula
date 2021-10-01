@@ -1,0 +1,1 @@
+This is where generated .wav files for TTS wind up. Don't put anything here, it'll get cleared out periodically.
